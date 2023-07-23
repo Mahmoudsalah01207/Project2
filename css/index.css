@@ -1,0 +1,24 @@
+h2{
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+h2::after {
+    width: 50%;
+    margin: auto;
+    top: 90;
+    left: 25%;
+content: "";
+position: absolute;
+height: 2px;
+border-bottom: dotted 3px black;
+color: black;
+}
+.adam{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+height: 4px;
+border-bottom: dotted 3px black;
+color: black;
+}
