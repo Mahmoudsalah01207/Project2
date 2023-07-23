@@ -1,0 +1,58 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body class="bg-secondary-subtle">
+    <h2> Book Marker</h2>
+
+    <div class="container py-5 ">
+        <form>
+            <div class="mb-3">
+
+                <label for="siteName " class="fs-5 fw-medium">site Name </label>
+                <input type="text" id="siteName" class="form-control mt-2" />
+            </div>
+            <div class="mb-3">
+
+                <label for="siteUrl" class="fs-5 fw-medium">site Url</label>
+                <input type="text" id="siteUrl" class="form-control mt-2" />
+            </div>
+
+            <div class="w-100 text-center">
+                <button id="addproduct" onclick="addSite()" type="button" class="btn  btn-danger   btn-lg w-25  m-auto">submit</button>
+
+            </div>
+            <a href=""></a>
+
+<div class="adam"></div>
+
+        </form>
+        <table class="table table-striped text-center table-bordered ">
+            <thead>
+                <th>index</th>
+                <th>site Name</th>
+                <th>viste </th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="tableBody">
+
+
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
